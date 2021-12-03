@@ -3,6 +3,6 @@ module.exports = {
     name   : "server",
     script : "./server.js",
     watch: true,
-    ignore_watch : ["node_modules", "db"],
+    ignore_watch : ["node_modules", "db", ".env", ".env.example"],
   }]
 }

@@ -11,7 +11,8 @@
     "pm2": "pm2 start server.js",
     "pm2-fork": "pm2 start server.js --name server-fork",
     "pm2-cluster": "pm2 start server.js -i max -f",
-    "pm2-watch": "pm2 start ecosystem.config.js"
+    "pm2-fork-watch": "pm2 start ecosystem.config.js",
+    "pm2-cluster-watch": "pm2 start ecosystem-cluster.config.js"
   },
   "author": "Lucas Paviotti",
   "license": "ISC",
